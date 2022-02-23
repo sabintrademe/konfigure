@@ -1,8 +1,7 @@
 apply plugin: 'kotlin'
-
 ext {
     PUBLISH_VERSION = rootVersionName
-    ARTIFACT_ID = "kofigure-android"
+    ARTIFACT_ID = "konfigure-android"
 }
 
 apply from: '../common.gradle'
